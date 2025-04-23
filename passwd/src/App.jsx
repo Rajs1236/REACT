@@ -74,18 +74,18 @@ function App() {
                 }}
 
               />
-              <label htmlFor='numberInput'>characters</label>
+              <label htmlFor='numberInput'>Numbers</label>
               <br></br>
               <input
                 type="checkbox"
-                defaultChecked={Numberallowed}
-                id="numberInput"
+                defaultChecked={charallowed}
+                id="charInput"
                 onChange={() => {
                   setNumber((prev) => !prev);
                 }}
 
               />
-              <label htmlFor='numberInput'>Numbers</label>
+              <label htmlFor='numberInput'>char</label>
             </div></div>
         </div>
 
