@@ -32,7 +32,7 @@ function App() {
             backgroundImage: `url('https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         }}
   >
- <div className="bg-slate-400  w-1/2 h-1/6 rounded-2xl"><h1 className="text-5xl p-10 text-purple-800 font-[Fruktur]" >Custom Currency Convertor</h1></div>
+ <div className="bg-slate-400 w-1/2 h-1/6 rounded-2xl"><h1 className="text-5xl p-10 text-purple-800 font-[Fruktur]" >Custom Currency Convertor</h1></div>
         <div className="w-full">  
       
         
