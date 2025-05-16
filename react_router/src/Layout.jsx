@@ -7,6 +7,8 @@ function Layout(){
         <>
         <Header/>
         <Outlet/>
+        {/* //outlet dene s hota y h ki upr header same rheg FOOTEER
+        // SAME RHEGA PR BEECH M CONTENT CHANGE HOTA RHEGA */}
         <Footer/>
         
         </>
