@@ -2,19 +2,26 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Intro from './components/introduction/Intro'
-import Education from './components/Education/Edu'
-import Header from './components/header/Header'
+import Body from './Mn'
+import { Outlet } from 'react-router'
+import Header from './Header'
+import About from './About'
 function App() {
   const [count, setCount] = useState(0)
-const [about,aboutactive]=useState(false)
-  return (
-    <>
-    <Header/>
-   <div>
 
+  return (
+    <div>
+   <nav>
+<div className='bg-gray-400 text-xl'>
+
+<Header/>
+<Outlet/>
+
+
+</div>
+
+   </nav>
     </div>
-    </>
   )
 }
 
