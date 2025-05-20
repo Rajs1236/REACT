@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-white;
+  min-height: 100vh; /* Tailwind's min-h-screen cannot be used with @apply */
+}
